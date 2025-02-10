@@ -1,0 +1,87 @@
+---
+title: 'How to Organize Navigation'
+description: 'Guidelines for information hierarchy'
+---
+
+This article covers why and how to organize your information hierarchy in a way that makes sense for your users. 
+
+## Why is navigation important?
+
+Navigation might seem unimportant because experienced users looking for specific answers will typically use your docs search bar.
+
+But for newer users and prospects, your documentation information hierarchy serves as a mental model for how to think about your product. Navigation thus serves as a critical selling point by helping people quickly grasp what you offer. 
+
+<Note>
+"Your navigation is like a subway map. It tells you how the whole system hangs together, which is crucial for users evaluating your product." 
+
+—CT Smith, Head of Docs at Payabli
+
+</Note>
+
+## Map the foundation with stakeholders
+
+Align with key stakeholders like your founders, product managers, or engineering leads on how your product works, what’s most important, and how users should interact with it. 
+
+Example questions to ask: 
+
+- What’s the simplest way to explain how the product works?
+- What are the product’s core building blocks?
+- How do users typically adopt the product? Where do people most often get stuck?
+- How does the product’s architecture influence how people use it?
+- What are the most important integrations or dependencies?
+- What is changing or evolving in the product?
+- If the product was broken into different “layers,” what would they be? e.g. beginner vs advanced, or feature set, or product line
+
+After mapping the structure, if you have uncertainty about whether this hierarchy makes logical sense, describe your reasoning and ask an LLM to find gaps. Use the prompt “How would you organize this for maximum understanding?”
+
+## Validate your assumptions
+
+Once you’ve established a structure, you need to validate whether it actually works for real users. The way people navigate your documentation often reveals gaps in your information architecture that internal teams might overlook.
+
+### **Track real user journeys**
+
+Use tools like session replays (e.g. [FullStory](https://www.fullstory.com), [Hotjar](https://www.hotjar.com)) or analytics (e.g. [Mixpanel](https://mixpanel.com)) to study how users move through your docs. Pay attention to:
+
+- **Entry points:** Where do users start their journey? Are they coming from search, a support ticket, or directly from your product?
+- **Navigation patterns:** Do they follow the expected hierarchy, or do they take unexpected detours?
+- **Friction points:** Where do users pause, loop back, or abandon their session? These could indicate unclear organization or missing content.
+- **Search behavior:** Are users searching for terms that don’t exist in your documentation? This might highlight gaps in your content or misalignment in terminology.
+
+<Note>
+"If you're able to hop on a call and ask users, 'Show me how you find answers,' you might be surprised. They're often using documentation in ways you don't understand." 
+
+—Sarah Edwards, Documentation Engineer at Datastax
+</Note> 
+
+### **Test with real users—including your own team**
+
+Analytics help surface trends, but direct conversations provide deeper insights. 
+
+Get on research calls where customers attempt to find answers to specific questions. Ask them to narrate their thought process as they navigate.
+
+New hires are also a great proxy for fresh users. Before they get too familiar with your product, ask them to complete a task using only the documentation. 
+
+Have them outline in detail how they approached it—where they clicked first, how they interpreted section names, and where they got stuck. Since they lack prior context, their instincts can reveal whether your docs are intuitive or if they assume too much knowledge.
+
+## **Identify common pitfalls**
+
+Based on your observations, look for these common navigation issues:
+
+- **Overloaded categories:** Too many top-level sections can overwhelm users. Consider grouping related topics together.
+- **Hidden essential content:** Don’t bury critical information. Prioritize frequently accessed content.
+- **Unclear section names:** If users hesitate before clicking, your labels might not be intuitive. Align terminology with how your audience naturally thinks.
+
+Try to avoid egregious issues but remember, it’s hard to make documentation organization work for everyone.
+
+“Creating a nav structure that makes sense to everyone can be difficult, but try to find something that works for a majority of customers.” —Brody Klapko, Technical Writer at Stash
+
+## Iterate over time
+
+Above all, stay flexible. Your navigation should evolve with your product and user needs. 
+
+<Note>
+"You don't have to be right on the first try. Use all available tools and perspectives to inform your decisions, but be ready to adjust based on how users actually interact with your documentation." 
+
+—Ethan Palm, Senior Manager of Docs at Github
+
+</Note>
